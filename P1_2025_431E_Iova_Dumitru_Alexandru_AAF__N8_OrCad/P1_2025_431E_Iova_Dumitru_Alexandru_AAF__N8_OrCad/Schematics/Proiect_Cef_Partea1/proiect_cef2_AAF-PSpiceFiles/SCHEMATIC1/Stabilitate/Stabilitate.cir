@@ -1,0 +1,23 @@
+** Profile: "SCHEMATIC1-Stabilitate"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_AAF-PSpiceFiles\SCHEMATIC1\Stabilitate.sim ] 
+
+** Creating circuit file "Stabilitate.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Andrei\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 10 100MEG
+.TEMP -10 0 27 50 70 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

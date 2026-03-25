@@ -1,0 +1,804 @@
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "RI.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\iovaa\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 10 10MEG
+.TEMP -10 0 27 50 70 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CEF2_AAF
+R_R14         N663861 N66336  150 TC=0,0 
+Q_Q5         N67056 N67354 N67488 QBC846B 
+Q_Q6         N67316 N67354 N67504 QBC846B 
+Q_Q1         N66648 VIN N67056 QBC846B 
+C_C1         N66648 N66814  470p  TC=0,0 
+R_R8         N67038 VOUT  8.2k TC=0,0 
+Q_Q3         N66648 N66616 N66482 QBC856B 
+X_U2         N675241 N66858 1N4148 
+R_R3         N66488 N66336  220 TC=0,0 
+R_R15         N66858 N675521  150 TC=0,0 
+Q_Q4         N66616 N66616 N66488 QBC856B 
+R_R4         N66858 N67488  470 TC=0,0 
+R_R2         N66482 N66336  220 TC=0,0 
+R_R11         N670721 N669241  22 TC=0,0 
+R_R6         N66858 N67504  330 TC=0,0 
+V_V1         VIN 0  AC 480m
++SIN 0 480m 1k 0 0 0
+X_U1         N67354 N675241 1N4148 
+Q_Q7         N66814 N66648 N66606 QBC856B 
+R_R1         0 VIN  220k TC=0,0 
+R_R7         N66606 N66336  330 TC=0,0 
+X_U3         N66814 N66990 1N4148 
+R_R16         N664601 N663861  82 TC=0,0 
+R_R9         0 N67038  910 TC=0,0 
+R_R5         N67354 0  2.2k TC=0,0 
+R_R17         N675521 N67935  82 TC=0,0 
+C_C2         N66606 N66336  1u  TC=0,0 
+X_U4         N66990 N67316 1N4148 
+V_Vdd         N66336 0 8Vdc
+R_R12         N672161 N670721  22 TC=0,0 
+Q_Q9         N66858 N67316 VOUT QBC856B 
+V_Vss         0 N66858 8Vdc
+Q_Q8         N66336 N66814 VOUT QBC846B 
+Q_Q2         N66616 N67038 N67056 QBC846B 
+R_R10         N669241 VOUT  22 TC=0,0 
+X_D1         N664601 0 LED PARAMS: IS=1.7603e-027 RS=3  BV=5 IBV=5e-6         
+X_D2         0 N67935 LED PARAMS: IS=1.7603e-027 RS=3  BV=5 IBV=5e-6         
+R_R13         0 N672161  10 TC=0,0 
+
+**** RESUMING RI.cir ****
+.END
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.1N4148     X_U1.1N4148     X_U3.1N4148     X_U4.1N4148     
+          IS    4.352000E-09    4.352000E-09    4.352000E-09    4.352000E-09 
+           N    1.906           1.906           1.906           1.906        
+          BV  110             110             110             110            
+         IBV  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+          RS     .6458           .6458           .6458           .6458       
+          TT    3.480000E-09    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO  704.800000E-15  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .869            .869            .869            .869        
+           M     .03             .03             .03             .03         
+
+
+               X_D1.model201   X_D2.model201   
+          IS    1.760300E-27    1.760300E-27 
+           N    2               2            
+          BV    5               5            
+         IBV    5.000000E-06    5.000000E-06 
+          RS    3               3            
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  -10.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        1.492E-10      1.492E-10      1.492E-10  
+         VJ        9.177E-01      9.177E-01      9.177E-01  
+        CJO        7.033E-13      7.033E-13      7.033E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        1.492E-10      7.072E-29      7.072E-29  
+         VJ        9.177E-01      1.033E+00      1.033E+00  
+        CJO        7.033E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        2.932E-18      7.808E-17  
+        VJE        8.203E-01      7.758E-01  
+        CJE        1.200E-11      1.087E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        2.603E-13      6.097E-17  
+        VJC        6.348E-01      5.899E-01  
+        CJC        3.116E-12      5.814E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        2.941E-17      3.251E-17  
+        ISS        0.000E+00      0.000E+00  
+        VJS        8.134E-01      8.134E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =  -10.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0167  (N66336)    8.0000 (N66482)    7.8276     
+
+(N66488)    7.8279 (N66606)    7.2643 (N66616)    7.1286 (N66648)    6.5433     
+
+(N66814)     .7336 (N66858)   -8.0000 (N66990)     .0185 (N67038)-240.3E-06     
+
+(N67056)    -.6961 (N67316)    -.6967 (N67354)   -6.5436 (N67488)   -7.2563     
+
+(N67504)   -7.2646 (N67935)   -2.8339 (N663861)    4.6598                       
+
+(N664601)    2.8339                   (N669241)     .0119                       
+
+(N670721)     .0070                   (N672161)     .0022                       
+
+(N675241)   -7.2718                   (N675521)   -4.6598                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.359E-06
+    V_Vdd       -2.797E-02
+    V_Vss       -3.073E-02
+
+    TOTAL POWER DISSIPATION   4.70E-01  WATTS
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        4.052E-10      4.052E-10      4.052E-10  
+         VJ        9.048E-01      9.048E-01      9.048E-01  
+        CJO        7.037E-13      7.037E-13      7.037E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        4.052E-10      1.832E-28      1.832E-28  
+         VJ        9.048E-01      1.024E+00      1.024E+00  
+        CJO        7.037E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        1.142E-17      2.903E-16  
+        VJE        8.037E-01      7.574E-01  
+        CJE        1.212E-11      1.100E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        7.666E-13      3.193E-16  
+        VJC        6.111E-01      5.645E-01  
+        CJC        3.178E-12      5.970E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        1.974E-16      2.182E-16  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.965E-01      7.965E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =    0.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0162  (N66336)    8.0000 (N66482)    7.8313     
+
+(N66488)    7.8316 (N66606)    7.2805 (N66616)    7.1510 (N66648)    6.5775     
+
+(N66814)     .7146 (N66858)   -8.0000 (N66990)     .0181 (N67038)-246.6E-06     
+
+(N67056)    -.6775 (N67316)    -.6783 (N67354)   -6.5776 (N67488)   -7.2722     
+
+(N67504)   -7.2807 (N67935)   -2.8929 (N663861)    4.6980                       
+
+(N664601)    2.8929                   (N669241)     .0115                       
+
+(N670721)     .0068                   (N672161)     .0021                       
+
+(N675241)   -7.2888                   (N675521)   -4.6980                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.305E-06
+    V_Vdd       -2.755E-02
+    V_Vss       -3.033E-02
+
+    TOTAL POWER DISSIPATION   4.63E-01  WATTS
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        4.352E-09      4.352E-09      4.352E-09  
+         VJ        8.690E-01      8.690E-01      8.690E-01  
+        CJO        7.048E-13      7.048E-13      7.048E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        4.352E-09      1.760E-27      1.760E-27  
+         VJ        8.690E-01      1.000E+00      1.000E+00  
+        CJO        7.048E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        2.894E-16      6.578E-15  
+        VJE        7.579E-01      7.071E-01  
+        CJE        1.244E-11      1.135E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        9.982E-12      1.633E-14  
+        VJC        5.463E-01      4.951E-01  
+        CJC        3.347E-12      6.395E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        1.822E-14      2.014E-14  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.500E-01      7.500E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0149  (N66336)    8.0000 (N66482)    7.8412     
+
+(N66488)    7.8415 (N66606)    7.3242 (N66616)    7.2122 (N66648)    6.6705     
+
+(N66814)     .6623 (N66858)   -8.0000 (N66990)     .0174 (N67038)-262.4E-06     
+
+(N67056)    -.6265 (N67316)    -.6276 (N67354)   -6.6700 (N67488)   -7.3151     
+
+(N67504)   -7.3244 (N67935)   -3.0516 (N663861)    4.8006                       
+
+(N664601)    3.0516                   (N669241)     .0106                       
+
+(N670721)     .0063                   (N672161)     .0020                       
+
+(N675241)   -7.3350                   (N675521)   -4.8006                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.161E-06
+    V_Vdd       -2.642E-02
+    V_Vss       -2.926E-02
+
+    TOTAL POWER DISSIPATION   4.45E-01  WATTS
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   50.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        2.428E-08      2.428E-08      2.428E-08  
+         VJ        8.377E-01      8.377E-01      8.377E-01  
+        CJO        7.058E-13      7.058E-13      7.058E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        2.428E-08      9.057E-27      9.057E-27  
+         VJ        8.377E-01      9.787E-01      9.787E-01  
+        CJO        7.058E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        3.004E-15      6.300E-14  
+        VJE        7.181E-01      6.634E-01  
+        CJE        1.272E-11      1.166E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        6.401E-11      2.820E-13  
+        VJC        4.902E-01      4.351E-01  
+        CJC        3.493E-12      6.762E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        4.823E-13      5.331E-13  
+        ISS        0.000E+00      0.000E+00  
+        VJS        7.095E-01      7.095E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   50.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0138  (N66336)    8.0000 (N66482)    7.8497     
+
+(N66488)    7.8500 (N66606)    7.3614 (N66616)    7.2652 (N66648)    6.7506     
+
+(N66814)     .6167 (N66858)   -8.0000 (N66990)     .0168 (N67038)-274.5E-06     
+
+(N67056)    -.5822 (N67316)    -.5832 (N67354)   -6.7495 (N67488)   -7.3517     
+
+(N67504)   -7.3616 (N67935)   -3.1861 (N663861)    4.8876                       
+
+(N664601)    3.1861                   (N669241)     .0098                       
+
+(N670721)     .0058                   (N672161)     .0018                       
+
+(N675241)   -7.3747                   (N675521)   -4.8876                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.038E-06
+    V_Vdd       -2.548E-02
+    V_Vss       -2.837E-02
+
+    TOTAL POWER DISSIPATION   4.31E-01  WATTS
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        9.028E-08      9.028E-08      9.028E-08  
+         VJ        8.098E-01      8.098E-01      8.098E-01  
+        CJO        7.066E-13      7.066E-13      7.066E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        9.028E-08      3.167E-26      3.167E-26  
+         VJ        8.098E-01      9.596E-01      9.596E-01  
+        CJO        7.066E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        1.796E-14      3.541E-13  
+        VJE        6.828E-01      6.247E-01  
+        CJE        1.297E-11      1.193E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        2.648E-10      2.487E-12  
+        VJC        4.409E-01      3.824E-01  
+        CJC        3.622E-12      7.084E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        5.896E-12      6.517E-12  
+        ISS        0.000E+00      0.000E+00  
+        VJS        6.738E-01      6.738E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   70.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0129  (N66336)    8.0000 (N66482)    7.8570     
+
+(N66488)    7.8573 (N66606)    7.3936 (N66616)    7.3119 (N66648)    6.8208     
+
+(N66814)     .5763 (N66858)   -8.0000 (N66990)     .0162 (N67038)-283.9E-06     
+
+(N67056)    -.5431 (N67316)    -.5438 (N67354)   -6.8191 (N67488)   -7.3834     
+
+(N67504)   -7.3938 (N67935)   -3.3024 (N663861)    4.9628                       
+
+(N664601)    3.3024                   (N669241)     .0091                       
+
+(N670721)     .0054                   (N672161)     .0017                       
+
+(N675241)   -7.4096                   (N675521)   -4.9628                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.932E-06
+    V_Vdd       -2.467E-02
+    V_Vss       -2.760E-02
+
+    TOTAL POWER DISSIPATION   4.18E-01  WATTS
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     TEMPERATURE-ADJUSTED VALUES      TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+ **** DIODE MODEL PARAMETERS
+
+                 X_U2.1N4148    X_U1.1N4148    X_U3.1N4148  
+
+         IS        1.369E-06      1.369E-06      1.369E-06  
+         VJ        7.379E-01      7.379E-01      7.379E-01  
+        CJO        7.088E-13      7.088E-13      7.088E-13  
+         RS        6.458E-01      6.458E-01      6.458E-01  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      1.100E+02      1.100E+02  
+
+                 X_U4.1N4148   X_D1.model201  X_D2.model201 
+
+         IS        1.369E-06      4.226E-25      4.226E-25  
+         VJ        7.379E-01      9.095E-01      9.095E-01  
+        CJO        7.088E-13      0.000E+00      0.000E+00  
+         RS        6.458E-01      3.000E+00      3.000E+00  
+        IKF        0.000E+00      0.000E+00      0.000E+00  
+         BV        1.100E+02      5.000E+00      5.000E+00  
+
+
+ **** BJT MODEL PARAMETERS
+
+                   QBC846B        QBC856B                   
+
+         BF        3.244E+02      3.153E+02  
+        ISE        7.276E-13      1.263E-11  
+        VJE        5.924E-01      5.259E-01  
+        CJE        1.360E-11      1.262E-11  
+         RE        6.490E-01      6.630E-01  
+         RB        1.000E+01      1.000E+01  
+         BR        8.290E+00      8.680E+00  
+        ISC        5.006E-09      2.252E-10  
+        VJC        3.153E-01      2.482E-01  
+        CJC        3.949E-12      7.903E-12  
+         RC        7.014E-01      7.180E-01  
+        RBM        5.000E+00      5.000E-06  
+         IS        1.050E-09      1.161E-09  
+        ISS        0.000E+00      0.000E+00  
+        VJS        5.821E-01      5.821E-01  
+        CJS        0.000E+00      0.000E+00  
+      GAMMA        1.000E-11      1.000E-11  
+        RCO        0.000E+00      0.000E+00  
+         VO        1.000E+01      1.000E+01  
+
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =  120.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0105  (N66336)    8.0000 (N66482)    7.8753     
+
+(N66488)    7.8756 (N66606)    7.4737 (N66616)    7.4309 (N66648)    6.9983     
+
+(N66814)     .4718 (N66858)   -8.0000 (N66990)     .0151 (N67038)-302.8E-06     
+
+(N67056)    -.4429 (N67316)    -.4416 (N67354)   -6.9953 (N67488)   -7.4622     
+
+(N67504)   -7.4739 (N67935)   -3.5912 (N663861)    5.1495                       
+
+(N664601)    3.5912                   (N669241)     .0075                       
+
+(N670721)     .0044                   (N672161)     .0014                       
+
+(N675241)   -7.4976                   (N675521)   -5.1495                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.667E-06
+    V_Vdd       -2.271E-02
+    V_Vss       -2.575E-02
+
+    TOTAL POWER DISSIPATION   3.88E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 11/19/25 09:02:48 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RI"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Al
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .16
+

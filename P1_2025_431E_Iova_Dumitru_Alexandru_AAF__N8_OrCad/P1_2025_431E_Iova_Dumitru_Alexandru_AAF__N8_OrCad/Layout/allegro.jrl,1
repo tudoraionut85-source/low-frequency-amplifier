@@ -1,0 +1,26 @@
+\t (00:00:31) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:31)     Journal start - Tue Jan 06 21:44:17 2026
+\t (00:00:31)         Host=DESKTOP-BLJPC54 User=tudixlidia Pid=6252 CPUs=16
+\t (00:00:31) CmdLine= C:\Users\tudixlidia\Desktop\orcabun\tools\bin\allegro.exe
+\t (00:00:31) 
+\d (00:00:31) Design opened: C:/Users/tudixlidia/Desktop/P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad/P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad/Layout/PROIECT_CEF2_AAF.brd
+\i (00:00:31) shapeedit 
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 11.1453 31.8417
+\t (00:00:33) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:33) trapsize 2844
+\i (00:00:33) zoom in 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom in 11.1453 31.8417
+\t (00:00:33) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:33) trapsize 1422
+\i (00:00:34) zoom out 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom out 11.1453 31.8417
+\t (00:00:34) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:34) trapsize 2844
+\i (00:00:39) exit 
+\e (00:00:39) Do you want to save the changes you made to PROIECT_CEF2_AAF.brd?
+\i (00:00:43) fillin no 
+\t (00:00:43)     Journal end - Tue Jan 06 21:44:30 2026

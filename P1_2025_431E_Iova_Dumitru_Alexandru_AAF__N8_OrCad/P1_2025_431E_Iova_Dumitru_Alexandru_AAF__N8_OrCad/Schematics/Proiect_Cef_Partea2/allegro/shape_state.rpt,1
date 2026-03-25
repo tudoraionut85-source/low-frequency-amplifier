@@ -1,0 +1,19 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Dynamic Status Report                                      )
+(                                                                     )
+(    Drawing          : PROIECT_CEF2_AAF.brd                          )
+(    Software Version : 17.2S025                                      )
+(    Date/Time        : Sat Dec 13 15:12:43 2025                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Dynamic shapes out of date: 1 out of 1
+  Current fill mode         : SMOOTH
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+       State: Out of date  Point on shape: (1.0001 1.0001)  Net: GND

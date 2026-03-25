@@ -1,0 +1,313 @@
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "PSF.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "d:/arhiva facultate/arhiva anul 3/semestrul 1/proiect 1(cef 2)/lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Andrei\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROIECT_CEF2_AAF
+R_R14         N663861 N66336  150 TC=0,0 
+Q_Q5         N67056 N67354 N67488 QBC846B 
+Q_Q6         N67316 N67354 N67504 QBC846B 
+Q_Q1         N66648 VIN N67056 QBC846B 
+C_C1         N66648 N66814  470p  TC=0,0 
+R_R8         N67038 VOUT  8.2k TC=0,0 
+Q_Q3         N66648 N66616 N66482 QBC856B 
+X_U2         N675241 N66858 1N4148 
+R_R3         N66488 N66336  220 TC=0,0 
+R_R15         N66858 N675521  150 TC=0,0 
+Q_Q4         N66616 N66616 N66488 QBC856B 
+R_R4         N66858 N67488  470 TC=0,0 
+R_R2         N66482 N66336  220 TC=0,0 
+R_R11         N670721 N669241  22 TC=0,0 
+R_R6         N66858 N67504  330 TC=0,0 
+V_V1         VIN 0  AC 480m
++SIN 0 480m 1k 0 0 0
+X_U1         N67354 N675241 1N4148 
+Q_Q7         N66814 N66648 N66606 QBC856B 
+R_R1         0 VIN  220k TC=0,0 
+R_R7         N66606 N66336  330 TC=0,0 
+X_U3         N66814 N66990 1N4148 
+R_R16         N664601 N663861  82 TC=0,0 
+R_R9         0 N67038  910 TC=0,0 
+R_R5         N67354 0  2.2k TC=0,0 
+R_R17         N675521 N67935  82 TC=0,0 
+C_C2         N66606 N66336  1u  TC=0,0 
+X_U4         N66990 N67316 1N4148 
+V_Vdd         N66336 0 8Vdc
+R_R12         N672161 N670721  22 TC=0,0 
+Q_Q9         N66858 N67316 VOUT QBC856B 
+V_Vss         0 N66858 8Vdc
+Q_Q8         N66336 N66814 VOUT QBC846B 
+Q_Q2         N66616 N67038 N67056 QBC846B 
+R_R10         N669241 VOUT  22 TC=0,0 
+X_D1         N664601 0 LED PARAMS: IS=1.7603e-027 RS=3  BV=5 IBV=5e-6         
+X_D2         0 N67935 LED PARAMS: IS=1.7603e-027 RS=3  BV=5 IBV=5e-6         
+R_R13         0 N672161  10 TC=0,0 
+
+**** RESUMING PSF.cir ****
+.END
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.1N4148     X_U1.1N4148     X_U3.1N4148     X_U4.1N4148     
+          IS    4.352000E-09    4.352000E-09    4.352000E-09    4.352000E-09 
+           N    1.906           1.906           1.906           1.906        
+          BV  110             110             110             110            
+         IBV  100.000000E-06  100.000000E-06  100.000000E-06  100.000000E-06 
+          RS     .6458           .6458           .6458           .6458       
+          TT    3.480000E-09    3.480000E-09    3.480000E-09    3.480000E-09 
+         CJO  704.800000E-15  704.800000E-15  704.800000E-15  704.800000E-15 
+          VJ     .869            .869            .869            .869        
+           M     .03             .03             .03             .03         
+
+
+               X_D1.model201   X_D2.model201   
+          IS    1.760300E-27    1.760300E-27 
+           N    2               2            
+          BV    5               5            
+         IBV    5.000000E-06    5.000000E-06 
+          RS    3               3            
+
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               QBC846B         QBC856B         
+               NPN             PNP             
+       LEVEL    1               1            
+          IS   18.220000E-15   20.140000E-15 
+          BF  324.4           315.3          
+          NF     .9932           .9974       
+         VAF   82              39.15         
+         IKF     .109            .079        
+         ISE  289.400000E-18    6.578000E-15 
+          NE    1.4             1.45         
+          BR    8.29            8.68         
+          NR     .9931           .9952       
+         VAR   17.9             9.5          
+         IKR     .09             .09         
+         ISC    9.982000E-12   16.330000E-15 
+          NC    1.763           1.15         
+         ISS    0               0            
+          RB   10              10            
+         RBM    5               5.000000E-06 
+         IRB    5.000000E-06    5.000000E-06 
+          RE     .649            .663        
+          RC     .7014           .718        
+         CJE   12.440000E-12   11.350000E-12 
+         VJE     .7579           .7071       
+         MJE     .3656           .3808       
+         CJC    3.347000E-12    6.395000E-12 
+         VJC     .5463           .4951       
+         MJC     .391            .44         
+        XCJC     .6193           .6288       
+         CJS    0               0            
+         VJS     .75             .75         
+         MJS     .333            .333        
+          FC     .979            .9059       
+          TF  490.800000E-12  654.600000E-12 
+         XTF    9.51            5.387        
+         VTF    2.927           6.245        
+         ITF     .3131           .2108       
+          TR   90.000000E-09   55.000000E-09 
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.2          
+           D     .87             .52         
+
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(  VIN)    0.0000  ( VOUT)     .0149  (N66336)    8.0000 (N66482)    7.8412     
+
+(N66488)    7.8415 (N66606)    7.3242 (N66616)    7.2122 (N66648)    6.6705     
+
+(N66814)     .6623 (N66858)   -8.0000 (N66990)     .0174 (N67038)-262.4E-06     
+
+(N67056)    -.6265 (N67316)    -.6276 (N67354)   -6.6700 (N67488)   -7.3151     
+
+(N67504)   -7.3244 (N67935)   -3.0516 (N663861)    4.8006                       
+
+(N664601)    3.0516                   (N669241)     .0106                       
+
+(N670721)     .0063                   (N672161)     .0020                       
+
+(N675241)   -7.3350                   (N675521)   -4.8006                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -2.161E-06
+    V_Vdd       -2.642E-02
+    V_Vss       -2.926E-02
+
+    TOTAL POWER DISSIPATION   4.45E-01  WATTS
+
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+
+**** DIODES
+
+
+NAME         X_U2.D1                 X_U1.D1               
+MODEL        X_U2.1N4148             X_U1.1N4148           
+ID           3.02E-03                3.02E-03             
+VD           6.65E-01                6.65E-01             
+REQ          1.63E+01                1.63E+01             
+CAP          2.14E-10                2.14E-10             
+
+NAME         X_U3.D1                 X_U4.D1               
+MODEL        X_U3.1N4148             X_U4.1N4148           
+ID           2.04E-03                2.04E-03             
+VD           6.45E-01                6.45E-01             
+REQ          2.42E+01                2.42E+01             
+CAP          1.45E-10                1.45E-10             
+
+NAME         X_D1.D_LED              X_D2.D_LED            
+MODEL        X_D1.model201           X_D2.model201         
+ID           2.13E-02                2.13E-02             
+VD           3.05E+00                3.05E+00             
+REQ          2.43E+00                2.43E+00             
+CAP          0.00E+00                0.00E+00             
+
+
+**** BIPOLAR JUNCTION TRANSISTORS
+
+
+NAME         Q_Q5        Q_Q6        Q_Q1        Q_Q3        Q_Q4      
+MODEL        QBC846B     QBC846B     QBC846B     QBC856B     QBC856B   
+IB           4.39E-06    6.20E-06    2.16E-06   -2.56E-06   -2.59E-06 
+IC           1.45E-03    2.04E-03    7.26E-04   -7.19E-04   -7.18E-04 
+VBE          6.45E-01    6.54E-01    6.26E-01   -6.29E-01   -6.29E-01 
+VBC         -6.04E+00   -6.04E+00   -6.67E+00    5.42E-01    0.00E+00 
+VCE          6.69E+00    6.70E+00    7.30E+00   -1.17E+00   -6.29E-01 
+BETADC       3.31E+02    3.29E+02    3.36E+02    2.82E+02    2.77E+02 
+GM           5.58E-02    7.79E-02    2.80E-02    2.75E-02    2.75E-02 
+RPI          5.86E+03    4.15E+03    1.19E+04    1.03E+04    1.01E+04 
+RX           7.63E+00    7.36E+00    8.20E+00    6.13E+00    6.11E+00 
+RO           5.86E+04    4.17E+04    1.18E+05    5.16E+04    5.09E+04 
+CBE          5.23E-11    6.39E-11    3.73E-11    4.42E-11    4.42E-11 
+CBC          7.83E-13    7.83E-13    7.56E-13    2.91E-12    4.02E-12 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       3.27E+02    3.23E+02    3.34E+02    2.82E+02    2.78E+02 
+CBX/CBX2     4.81E-13    4.81E-13    4.64E-13    1.72E-12    2.37E-12 
+FT/FT2       1.66E+08    1.90E+08    1.16E+08    8.97E+07    8.63E+07 
+
+
+
+NAME         Q_Q7        Q_Q9        Q_Q8        Q_Q2      
+MODEL        QBC856B     QBC856B     QBC846B     QBC846B   
+IB          -6.35E-06   -4.21E-06    4.77E-06    2.14E-06 
+IC          -2.04E-03   -1.40E-03    1.60E-03    7.23E-04 
+VBE         -6.54E-01   -6.42E-01    6.47E-01    6.26E-01 
+VBC          6.01E+00    7.37E+00   -7.34E+00   -7.21E+00 
+VCE         -6.66E+00   -8.01E+00    7.99E+00    7.84E+00 
+BETADC       3.22E+02    3.33E+02    3.36E+02    3.38E+02 
+GM           7.71E-02    5.34E-02    6.14E-02    2.79E-02 
+RPI          4.11E+03    6.21E+03    5.40E+03    1.20E+04 
+RX           4.69E+00    5.33E+00    7.57E+00    8.21E+00 
+RO           2.08E+04    3.13E+04    5.40E+04    1.19E+05 
+CBE          8.03E-11    6.31E-11    5.52E-11    3.73E-11 
+CBC          1.30E-12    1.19E-12    7.30E-13    7.35E-13 
+CJS          0.00E+00    0.00E+00    0.00E+00    0.00E+00 
+BETAAC       3.17E+02    3.31E+02    3.31E+02    3.36E+02 
+CBX/CBX2     7.65E-13    7.03E-13    4.49E-13    4.52E-13 
+FT/FT2       1.49E+08    1.31E+08    1.73E+08    1.16E+08 
+
+
+
+          JOB CONCLUDED
+
+**** 11/05/25 21:15:21 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-PSF"  [ C:\Users\Andrei\Desktop\proiect_cef2_AAF\proiect_cef2_aaf-pspicefiles\schematic1\psf.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .03
+

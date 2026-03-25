@@ -1,0 +1,256 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  GND          pins ADDED TO this new net
+                                 D1.1           D2.2           J1.2           
+                                 J2.1           J3.2           J4.2           
+                                 R1.1           R5.2           R9.1           
+                                 R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66336       pins ADDED TO this new net
+                                 C2.2           J2.2           Q8.3           
+                                 R2.2           R3.2           R7.2           
+                                 R14.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66482       pins ADDED TO this new net
+                                 Q3.2           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66488       pins ADDED TO this new net
+                                 Q4.2           R3.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66606       pins ADDED TO this new net
+                                 C2.1           Q7.2           R7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66616       pins ADDED TO this new net
+                                 Q2.3           Q3.1           Q4.1           
+                                 Q4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66648       pins ADDED TO this new net
+                                 C1.1           Q1.3           Q3.3           
+                                 Q7.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66814       pins ADDED TO this new net
+                                 C1.2           Q7.3           Q8.1           
+                                 U3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66858       pins ADDED TO this new net
+                                 J3.1           Q9.3           R4.1           
+                                 R6.1           R15.1          U2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N66990       pins ADDED TO this new net
+                                 U3.1           U4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67038       pins ADDED TO this new net
+                                 Q2.1           R8.1           R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67056       pins ADDED TO this new net
+                                 Q1.2           Q2.2           Q5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  N67316       pins ADDED TO this new net
+                                 Q6.3           Q9.1           U4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67354       pins ADDED TO this new net
+                                 Q5.1           Q6.1           R5.1           
+                                 U1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67488       pins ADDED TO this new net
+                                 Q5.2           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67504       pins ADDED TO this new net
+                                 Q6.2           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N67935       pins ADDED TO this new net
+                                 D2.1           R17.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N663861      pins ADDED TO this new net
+                                 R14.1          R16.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N664601      pins ADDED TO this new net
+                                 D1.2           R16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N669241      pins ADDED TO this new net
+                                 R10.1          R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N670721      pins ADDED TO this new net
+                                 R11.1          R12.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N672161      pins ADDED TO this new net
+                                 R12.1          R13.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N675241      pins ADDED TO this new net
+                                 U1.1           U2.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N675521      pins ADDED TO this new net
+                                 R15.2          R17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VIN          pins ADDED TO this new net
+                                 J4.1           Q1.1           R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VOUT         pins ADDED TO this new net
+                                 J1.1           Q8.2           Q9.2           
+                                 R8.2           R10.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 1N4148_0_SMD080512_1N4148
+ CON2_SMR2512_CON2
+ C_SMC0805_1U
+ C_SMC0805_470P
+ LED_0_SMD080512_5V,LED,LED
+ QBC846B_1_TO236_QBC846B
+ QBC856B_1_TO236_QBC856B
+ R_SMR0805_2.2K
+ R_SMR0805_8.2K
+ R_SMR0805_220K
+ R_SMR0805_10
+ R_SMR0805_22
+ R_SMR0805_82
+ R_SMR0805_150
+ R_SMR0805_220
+ R_SMR0805_330
+ R_SMR0805_470
+ R_SMR0805_910
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  C_SMC0805_470P        
+ C2                  C_SMC0805_1U          
+ D1                  LED_0_SMD080512_5V,LED,LED 
+ D2                  LED_0_SMD080512_5V,LED,LED 
+ J1                  CON2_SMR2512_CON2     
+ J2                  CON2_SMR2512_CON2     
+ J3                  CON2_SMR2512_CON2     
+ J4                  CON2_SMR2512_CON2     
+ Q1                  QBC846B_1_TO236_QBC846B 
+ Q2                  QBC846B_1_TO236_QBC846B 
+ Q3                  QBC856B_1_TO236_QBC856B 
+ Q4                  QBC856B_1_TO236_QBC856B 
+ Q5                  QBC846B_1_TO236_QBC846B 
+ Q6                  QBC846B_1_TO236_QBC846B 
+ Q7                  QBC856B_1_TO236_QBC856B 
+ Q8                  QBC846B_1_TO236_QBC846B 
+ Q9                  QBC856B_1_TO236_QBC856B 
+ R1                  R_SMR0805_220K        
+ R2                  R_SMR0805_220         
+ R3                  R_SMR0805_220         
+ R4                  R_SMR0805_470         
+ R5                  R_SMR0805_2.2K        
+ R6                  R_SMR0805_330         
+ R7                  R_SMR0805_330         
+ R8                  R_SMR0805_8.2K        
+ R9                  R_SMR0805_910         
+ R10                 R_SMR0805_22          
+ R11                 R_SMR0805_22          
+ R12                 R_SMR0805_22          
+ R13                 R_SMR0805_10          
+ R14                 R_SMR0805_150         
+ R15                 R_SMR0805_150         
+ R16                 R_SMR0805_82          
+ R17                 R_SMR0805_82          
+ U1                  1N4148_0_SMD080512_1N4148 
+ U2                  1N4148_0_SMD080512_1N4148 
+ U3                  1N4148_0_SMD080512_1N4148 
+ U4                  1N4148_0_SMD080512_1N4148 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ J1.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J4.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q2.2                           PRIM_FILE      .\pstchip.dat
+ Q3.2                           PRIM_FILE      .\pstchip.dat
+ Q4.2                           PRIM_FILE      .\pstchip.dat
+ Q5.2                           PRIM_FILE      .\pstchip.dat
+ Q6.2                           PRIM_FILE      .\pstchip.dat
+ Q7.2                           PRIM_FILE      .\pstchip.dat
+ Q8.2                           PRIM_FILE      .\pstchip.dat
+ Q9.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ U1.1                           PRIM_FILE      .\pstchip.dat
+ U2.1                           PRIM_FILE      .\pstchip.dat
+ U3.1                           PRIM_FILE      .\pstchip.dat
+ U4.1                           PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  C:.../SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd                               |
+|                                                    Sat Dec 06 16:12:30 2025  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      85                                        |
+|       Comp definitions added:      18                                        |
+|       Components added      :      38                                        |
+|       Slot property added   :      38                                        |
+|                                                                              |
+|   Total ECO changes reported:     179                                        |
+|------------------------------------------------------------------------------|

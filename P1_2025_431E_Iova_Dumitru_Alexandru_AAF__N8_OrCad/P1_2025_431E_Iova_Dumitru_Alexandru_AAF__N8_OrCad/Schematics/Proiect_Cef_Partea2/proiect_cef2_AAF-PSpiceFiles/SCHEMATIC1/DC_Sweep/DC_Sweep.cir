@@ -1,0 +1,23 @@
+** Profile: "SCHEMATIC1-DC_Sweep"  [ C:\Users\iovaa\Desktop\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\P1_2025_431E_Iova_Dumitru_Alexandru_AAF__N8_OrCad\Schematics\proiect_cef2_aaf-pspicefiles\schematic1\dc_sweep.sim ] 
+
+** Creating circuit file "DC_Sweep.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/1n4148.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc846b.lib" 
+.LIB "../../../lib_modelepspice_anexa_1/modele_a1_lib/bc856b.lib" 
+* From [PSPICE NETLIST] section of C:\Users\iovaa\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.DC LIN V_V1 -4.8 4.8 100m 
+.TEMP -10 0 27 50 70 120
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

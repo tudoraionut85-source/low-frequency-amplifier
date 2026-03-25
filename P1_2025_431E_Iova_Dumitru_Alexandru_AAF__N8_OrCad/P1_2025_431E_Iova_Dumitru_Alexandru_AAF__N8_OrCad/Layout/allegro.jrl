@@ -1,0 +1,20 @@
+\t (00:00:05) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Tue Jan 06 21:45:11 2026
+\t (00:00:05)         Host=DESKTOP-BLJPC54 User=tudixlidia Pid=22800 CPUs=16
+\t (00:00:05) CmdLine= C:\Users\tudixlidia\Desktop\orcabun\tools\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:05) Starting new design...
+\i (00:00:08) trapsize 671
+\i (00:00:08) trapsize 686
+\i (00:00:08) trapsize 1196
+\i (00:00:08) shapeedit 
+\i (00:00:13) open 
+\e (00:00:13) Do you want to save the changes you made to unnamed.brd?
+\i (00:00:15) fillin no 
+\i (00:00:27) fillin "C:\Users\tudixlidia\Desktop\P1_2025_431D_Minzala_Flavian_OW_N16_OrCAD\Layout\PROIECT_cef_3.brd"
+\i (00:00:27) cd "C:\Users\tudixlidia\Desktop\P1_2025_431D_Minzala_Flavian_OW_N16_OrCAD\Layout"
+\t (00:00:27) Opening existing design...
+\t (00:00:27) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:27) trapsize 2847
+\t (00:00:27)     Journal end - Tue Jan 06 21:45:32 2026

@@ -1,0 +1,10 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 14 16:32:23 2025
+\t (00:00:00)         Host=DESKTOP-4RRLRN2 User=iovaa Pid=3524 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession iovaa -file ./#Taaaaac00940.tmp -pname C100M200K200 -data C:/Users/iovaa/AppData/Local/Temp/#Taaaaae00940.tmp
+\t (00:00:00) 
+\d (00:00:01) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\d (00:00:06) QtSignal GuidedMaskLayersTab LayersTable itemSelectionChanged 2 Pad
+\d (00:00:06) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\d (00:00:07) QtSignal GuidedMaskLayersTab LayersTable cellClicked 2 Pad 2 1
+\t (00:00:16)     Journal end - Sun Dec 14 16:32:39 2025

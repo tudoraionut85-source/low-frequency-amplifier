@@ -1,0 +1,59 @@
+\t (00:00:05) allegro 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:05)     Journal start - Sun Dec 14 19:12:51 2025
+\t (00:00:05)         Host=DESKTOP-4RRLRN2 User=iovaa Pid=14884 CPUs=8
+\t (00:00:05) CmdLine= C:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:00:05) 
+   (00:00:06) Loading axlcore.cxt 
+\t (00:00:06) Opening existing design...
+\d (00:00:09) Design opened: C:/USERS/IOVAA/DESKTOP/P1_2025_431E_IOVA_DUMITRU_ALEXANDRU_AAF__N8_ORCAD/P1_2025_431E_IOVA_DUMITRU_ALEXANDRU_AAF__N8_ORCAD/SCHEMATICS/allegro/PROIECT_CEF2_AAF.brd
+\t (00:00:10) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:10) trapsize 5387
+\i (00:00:10) trapsize 5517
+\t (00:00:10) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:00:10) trapsize 5517
+\i (00:00:10) generaledit 
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 8.5220 2.6781
+\t (00:00:12) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:12) trapsize 2758
+\i (00:00:12) zoom in 1 
+\i (00:00:12) setwindow pcb
+\i (00:00:12) zoom in 8.5220 2.6781
+\t (00:00:12) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:12) trapsize 1379
+\i (00:00:13) zoom out 1 
+\i (00:00:13) setwindow pcb
+\i (00:00:13) zoom out 11.3079 2.9264
+\t (00:00:13) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:00:13) trapsize 2758
+\i (00:00:14) zoom in 1 
+\i (00:00:14) setwindow pcb
+\i (00:00:14) zoom in 11.6940 2.2644
+\t (00:00:14) Grids are drawn 0.1600, 0.1600 apart for enhanced viewability.
+\i (00:00:14) trapsize 1379
+\i (00:06:28) zoom out 1 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom out 20.7137 1.2990
+\t (00:06:28) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:06:28) trapsize 2758
+\i (00:06:28) zoom out 1 
+\i (00:06:28) setwindow pcb
+\i (00:06:28) zoom out 21.9273 3.0643
+\t (00:06:28) Grids are drawn 0.6400, 0.6400 apart for enhanced viewability.
+\i (00:06:28) trapsize 5517
+\i (00:06:33) zoom fit 
+\t (00:06:33) Grids are drawn 0.3200, 0.3200 apart for enhanced viewability.
+\i (00:06:33) trapsize 2758
+\i (00:06:34) grid toggle 
+\i (00:06:34) generaledit 
+\i (00:07:41) artwork 
+\i (00:07:46) setwindow form.film_control
+\i (00:07:46) FORM film_control filmtree  FAB 
+\i (00:08:41) FORM film_control ok  
+\i (00:08:41) setwindow pcb
+\i (00:08:41) generaledit 
+\i (00:22:34) exit 
+\e (00:22:34) Do you want to save the changes you made to PROIECT_CEF2_AAF.brd?
+\i (00:22:35) fillin no 
+\t (00:22:35)     Journal end - Sun Dec 14 19:35:21 2025

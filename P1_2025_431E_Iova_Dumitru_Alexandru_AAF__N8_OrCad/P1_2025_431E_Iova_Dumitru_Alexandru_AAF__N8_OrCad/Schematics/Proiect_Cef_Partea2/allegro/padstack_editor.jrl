@@ -1,0 +1,7 @@
+\t (00:00:00) padstack_editor 17.2 S025 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sun Dec 14 16:33:31 2025
+\t (00:00:00)         Host=DESKTOP-4RRLRN2 User=iovaa Pid=600 CPUs=8
+\t (00:00:00) CmdLine= padstack_editor -mpssession iovaa -file ./#Taaaaaf00940.tmp -pname C100M200K200 -data C:/Users/iovaa/AppData/Local/Temp/#Taaaaah00940.tmp
+\t (00:00:00) 
+\d (00:00:01) QtSignal GuidedTabsParent GuidedTabs currentChanged "Mask Layers"
+\t (00:01:07)     Journal end - Sun Dec 14 16:34:39 2025
